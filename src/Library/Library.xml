@@ -49,5 +49,13 @@
             </summary>
             <param name="person">La persona a la cual presentarse.</param>
         </member>
+        <member name="M:Ucu.Poo.Persons.Person.Equals(System.Object)">
+            <summary>
+            Determina cuándo esta persona es igual a otra que se recibe como parámetro.
+            </summary>
+            <param name="obj">El objeto a comparar.</param>
+            <returns><c>True</c> si este objeto es igual al que se recibe como parámetro; <c>False</c> en caso
+            contrario.</returns>
+        </member>
     </members>
 </doc>
