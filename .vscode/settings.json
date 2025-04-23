@@ -1,0 +1,10 @@
+{
+    "cSpell.enabled": true,
+    "cSpell.language": "en,es",
+    "cSpell.words": [
+        "dotnet",
+        "Doxify",
+        "reservados"
+    ],
+    "dotnet.defaultSolution": "Person.sln"
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Library</name>
+    </assembly>
+    <members>
+        <member name="T:Ucu.Poo.Persons.Person">
+            <summary>
+            Esta clase representa una persona con clase y apellido.
+            </summary>
+        </member>
+        <member name="M:Ucu.Poo.Persons.Person.#ctor(System.String,System.String)">
+            <summary>
+            Inicializa una nueva instancia de la clase <see cref="T:Ucu.Poo.Persons.Person"/> con el nombre y apellidos recibidos como argumento.
+            </summary>
+            <param name="name">El nombre de la persona.</param>
+            <param name="familyName">El apellido de la persona.</param>
+        </member>
+        <member name="P:Ucu.Poo.Persons.Person.Name">
+            <summary>
+            Obtiene o establece el nombre de la persona. El texto no tiene espacios al comienzo ni al final -los espacios son removidos al asignar el texto-.
+            </summary>
+            <value>El nombre de la persona.</value>
+        </member>
+        <member name="P:Ucu.Poo.Persons.Person.FamilyName">
+            <summary>
+            Obtiene o establece el apellido de la persona. El texto no tiene espacios al comienzo ni al final -los espacios son removidos al asignar el texto-.
+            </summary>
+            <value>El apellido de la persona.</value>
+        </member>
+        <member name="P:Ucu.Poo.Persons.Person.FullName">
+            <summary>
+             Obtiene el nombre completo de la persona concatenando el nombre y el apellido.
+            </summary>
+        </member>
+        <member name="P:Ucu.Poo.Persons.Person.BirthDate">
+            <summary>
+            Obtiene o establece la fecha de nacimiento de la persona.
+            </summary>
+        </member>
+        <member name="P:Ucu.Poo.Persons.Person.Age">
+            <summary>
+            Obtiene la edad de la persona al día de hoy.
+            </summary>
+        </member>
+        <member name="M:Ucu.Poo.Persons.Person.IntroduceTo(Ucu.Poo.Persons.Person)">
+            <summary>
+            Esta persona se presenta con otra.
+            </summary>
+            <param name="person">La persona a la cual presentarse.</param>
+        </member>
+    </members>
+</doc>

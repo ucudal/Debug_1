@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Program</name>
+    </assembly>
+    <members>
+        <member name="T:Ucu.Poo.Persons.Program">
+            <summary>
+            El programa principal.
+            </summary>
+        </member>
+        <member name="M:Ucu.Poo.Persons.Program.Main">
+            <summary>
+            El punto de entrada al programa.
+            </summary>
+        </member>
+        <member name="M:Ucu.Poo.Persons.Program.AssignVariableWithObject">
+            <summary>
+            Ejemplo que muestra la asignación de un objeto a una variable.
+            </summary>
+        </member>
+        <member name="M:Ucu.Poo.Persons.Program.AssignTwoVariablesWithObject">
+            <summary>
+            Ejemplo que muestra la asignación del mismo objeto a dos variables.
+            </summary>
+        </member>
+        <member name="M:Ucu.Poo.Persons.Program.CompareDifferentObjects">
+            <summary>
+            Ejemplo que muestra la comparación de dos objetos diferentes asignados a dos variables diferentes.
+            </summary>
+        </member>
+        <member name="M:Ucu.Poo.Persons.Program.CompareEqualObjects">
+            <summary>
+            Ejemplo que muestra la comparación de dos objetos ¿iguales? asignados a dos variables diferentes.
+            </summary>
+        </member>
+        <member name="M:Ucu.Poo.Persons.Program.CreateObject">
+            <summary>
+            Ejemplo que muestra el pasaje como parámetro de un objeto.
+            </summary>
+        </member>
+        <member name="M:Ucu.Poo.Persons.Program.IntroducePersons">
+            <summary>
+            Crea dos personas y las presenta entre sí.
+            </summary>
+        </member>
+    </members>
+</doc>
